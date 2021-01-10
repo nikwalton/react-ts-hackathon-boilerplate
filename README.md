@@ -5,7 +5,6 @@ Launch your hackathon website easily with this react and typescript based boiler
 * Node
 ## What's included
 * react-bootstrap
-* styled-components 
 * react-router-dom
 ## Running the dev environment
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). Refer to the readme included in 
