@@ -17,9 +17,9 @@ function Hero() {
                 <Container style={{paddingTop: '10em', paddingBottom: '10em'}}>
                     <h1 style={TextStyle}>What The Hack? TSHack</h1>
                     <p style={TextStyle}>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    <Button variant='light'>Register</Button>{' '}
-                    <Button variant='light'>Volunteer</Button>{' '}
-                    <Button variant='light'>Sponsor</Button>{' '}
+                    <Button variant='outline-light'>Register</Button>{' '}
+                    <Button variant='outline-light'>Volunteer</Button>{' '}
+                    <Button variant='outline-light'>Sponsor</Button>
                 </Container>
             </Jumbotron>
 
