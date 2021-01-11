@@ -1,5 +1,5 @@
-import React from 'react';
-import { Navbar, Nav, Container } from 'react-bootstrap';
+import React from 'react'
+import { Navbar, Nav} from 'react-bootstrap'
 
 
 function Navigation() {
@@ -12,7 +12,7 @@ function Navigation() {
   }
   return (
     <>
-      <Navbar expand='lg' style={NavStyle}>
+      <Navbar className='fixed-top' expand='lg' style={NavStyle}>
         <Navbar.Brand href='#home' style={TextStyle}>TSHack</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
