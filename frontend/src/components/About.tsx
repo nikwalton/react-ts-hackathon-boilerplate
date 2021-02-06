@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { cloneElement } from 'react'
 import { Container, Row, Col, Image } from 'react-bootstrap'
 import MediaQuery from 'react-responsive'
 import image1 from '../images/alex-kotliarskyi-ourQHRTE2IM-unsplash.jpg'
@@ -41,18 +41,18 @@ function About() {
                     ullamcorper pretium ante.</p>
             
                 </Col>
-                <MediaQuery minWidth={768}>
+                <MediaQuery minWidth={1366}>
                     <Col>
-                    <Image src={image1} className="shadow" style={{height:300, marginLeft:200, marginBottom: 50}} rounded thumbnail />
+                    <Image src={image1} className="shadow"  style={{height:300, marginLeft:200, marginBottom:50}} rounded thumbnail fluid />
                     </Col>
                 </MediaQuery>
                
             </Row>
             
             <Row>
-            <MediaQuery minWidth={768}>
+            <MediaQuery minWidth={1366}>
                 <Col>
-                    <Image src={image2} className="shadow" style={{height:300,marginLeft:200 }} rounded thumbnail/>
+                    <Image src={image2} className="shadow" style={{height:300, marginLeft:200 }} rounded thumbnail fluid/>
                 </Col>
             </MediaQuery>    
                 <Col>
