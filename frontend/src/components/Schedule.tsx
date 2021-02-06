@@ -1,5 +1,5 @@
 import React from 'react'
-import {Container, Col, Row} from 'react-bootstrap'
+import {Container, Col, Row, Table} from 'react-bootstrap'
 
 function Schedule() {
     const ContainerStyle = {
@@ -16,6 +16,74 @@ function Schedule() {
             <Row>
                 <Col>
                 <h1 className='display-4' style={TextStyle}>Schedule</h1>
+                </Col>
+            </Row>
+            <Row>
+                <Col>
+                    <h1 style={TextStyle}>1/1/2021</h1>
+                    <Table striped bordered hover size='sm' style={{backgroundColor: 'white'}} className="shadow">
+                        <thead>
+                            <th>Time</th>
+                            <th>Activity</th>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>8:00AM</td>
+                                <td>Check-In</td>
+                            </tr>
+                            <tr>
+                                <td>8:30AM</td>
+                                <td>Breakfast</td>
+                            </tr>
+                            <tr>
+                                <td>9:00AM</td>
+                                <td>Opening Ceremony</td>
+                            </tr>
+                            <tr>
+                                <td>10:00AM</td>
+                                <td>Hacking Begins</td>
+                            </tr>
+                            <tr>
+                                <td>11:00AM</td>
+                                <td>Tech Talk</td>
+                            </tr>
+                            <tr>
+                                <td>12:00PM</td>
+                                <td>Lunch</td>
+                            </tr>
+                            <tr>
+                                <td>12:00PM</td>
+                                <td>Industry Networking</td>
+                            </tr>
+                            <tr>
+                                <td>1:00PM</td>
+                                <td>Career Advice</td>
+                            </tr>
+                            <tr>
+                                <td>4:00PM</td>
+                                <td>React Walkthrough</td>
+                            </tr>
+                            <tr>
+                                <td>6:00PM</td>
+                                <td>Dinner</td>
+                            </tr>
+                            <tr>
+                                <td>8:00PM</td>
+                                <td>Pet Your Stress Away</td>
+                            </tr>
+                            <tr>
+                                <td>10:00PM</td>
+                                <td>Late Night Snacks</td>
+                            </tr>
+                            <tr>
+                                <td>11:59PM</td>
+                                <td>Project Submissons Open</td>
+                            </tr>
+                        </tbody>
+                    </Table>
+                </Col>
+                <Col>
+                    <h1 style={TextStyle}>1/2/2021</h1>
                 </Col>
             </Row>
         </Container>
