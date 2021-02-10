@@ -12,7 +12,7 @@ function Schedule() {
     }
 
     return (
-        <Container fluid style={ContainerStyle}>
+        <Container fluid style={ContainerStyle} >
             <Row>
                 <Col>
                 <h1 className='display-4' style={TextStyle}>Schedule</h1>
@@ -84,7 +84,7 @@ function Schedule() {
                 </Col>
                 <Col>
                     <h1 style={TextStyle}>1/2/2021</h1>
-                    <Table striped hover bordered size='sm' style={{backgroundColor: 'white'}} >
+                    <Table striped hover bordered size='sm' style={{backgroundColor: 'white'}} className="shadow" >
                         <thead>
                          <th>Time</th>
                          <th>Activity</th>
