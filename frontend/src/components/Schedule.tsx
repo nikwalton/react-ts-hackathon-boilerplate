@@ -1,5 +1,5 @@
 import React from 'react'
-import {Container, Col, Row, Table} from 'react-bootstrap'
+import {Container, Col, Row, Table, Tab} from 'react-bootstrap'
 
 function Schedule() {
     const ContainerStyle = {
@@ -21,7 +21,7 @@ function Schedule() {
             <Row>
                 <Col>
                     <h1 style={TextStyle}>1/1/2021</h1>
-                    <Table striped bordered hover size='sm' style={{backgroundColor: 'white'}} className="shadow">
+                    <Table striped bordered hover size='sm' style={{backgroundColor: 'white'}} className='shadow'>
                         <thead>
                             <th>Time</th>
                             <th>Activity</th>
@@ -84,6 +84,66 @@ function Schedule() {
                 </Col>
                 <Col>
                     <h1 style={TextStyle}>1/2/2021</h1>
+                    <Table striped hover bordered size='sm' style={{backgroundColor: 'white'}} >
+                        <thead>
+                         <th>Time</th>
+                         <th>Activity</th>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>12:00 AM</td>
+                                <td>Submissions Open</td>
+                            </tr>
+                            <tr>
+                                <td>1:00AM</td>
+                                <td>Early Morning Snacks</td>
+                            </tr>
+                            <tr>
+                                <td>2:00AM</td>
+                                <td>Keep Hacking</td>
+                            </tr>
+                            <tr>
+                                <td>3:00AM</td>
+                                <td>Keep Hacking</td>
+                            </tr>
+                            <tr>
+                                <td>4:00AM</td>
+                                <td>Keep Hacking</td>
+                            </tr>
+                            <tr>
+                                <td>5:00AM</td>
+                                <td>Early Morning Coffee</td>
+                            </tr>
+                            <tr>
+                                <td>6:00AM</td>
+                                <td>Morning Yoga</td>
+                            </tr>
+                            <tr>
+                                <td>7:00AM</td>
+                                <td>Breakfast</td>
+                            </tr>
+                            <tr>
+                                <td>8:00AM</td>
+                                <td>Keep Hacking</td>
+                            </tr>
+                            <tr>
+                                <td>9:00AM</td>
+                                <td>Submissions Due In One Hour</td>
+                            </tr>
+                            <tr>
+                                <td>10:00AM</td>
+                                <td>Submissions Closed</td>
+                            </tr>
+                           <tr>
+                               <td>10:01AM</td>
+                               <td>Judging Begins</td>
+                           </tr> 
+                           <tr>
+                               <td>12:00PM</td>
+                               <td>Closing Ceremonies And Goodbyes</td>
+                           </tr>
+                        </tbody>
+                    </Table>
                 </Col>
             </Row>
         </Container>
