@@ -1,5 +1,5 @@
 import React from 'react'
-import {Container, Col, Row, Card, CardDeck} from 'react-bootstrap'
+import {Container, Col, Row, Card, CardDeck, Button} from 'react-bootstrap'
 import placeholder from '../images/avatar-placeholder.png'
 
 function Presenters() {
@@ -26,6 +26,7 @@ function Presenters() {
                             <Card.Body>
                                 <Card.Title>Big CEO</Card.Title>
                                 <Card.Text>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</Card.Text>
+                                <Button variant="primary">Big CEO</Button>
                             </Card.Body>
                         </Card>
                         <Card style={{width: '18rem'}} className='shadow'>
@@ -33,6 +34,7 @@ function Presenters() {
                             <Card.Body>
                                 <Card.Title>Professor X</Card.Title>
                                 <Card.Text>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</Card.Text>
+                                <Button variant="primary">Professor X</Button>
                             </Card.Body>
                         </Card>
                         <Card style={{width: '18rem'}} className='shadow'>
@@ -40,6 +42,7 @@ function Presenters() {
                             <Card.Body>
                                 <Card.Title>Dr. Strange</Card.Title>
                                 <Card.Text>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</Card.Text>
+                                <Button variant="primary">Dr. Strange</Button>
                             </Card.Body>
                         </Card>
                         <Card style={{width: '18rem'}} className='shadow'>
@@ -47,6 +50,7 @@ function Presenters() {
                             <Card.Body>
                                 <Card.Title>Some Guy</Card.Title>
                                 <Card.Text>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</Card.Text>
+                                <Button variant="primary">Some Guy</Button>
                             </Card.Body>
                         </Card>
                     </CardDeck>
