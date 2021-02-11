@@ -1,5 +1,6 @@
 import React from 'react'
 import {Container, Col, Row, Card, CardDeck} from 'react-bootstrap'
+import placeholder from '../images/avatar-placeholder.png'
 
 function Presenters() {
     const ContainerStyle = {
@@ -21,24 +22,28 @@ function Presenters() {
                 <Col>
                     <CardDeck >
                         <Card style={{width: '18rem'}} className='shadow'>
+                            <Card.Img variant='top' src={placeholder} style={{height: '200px', width: "200px", alignSelf: 'center'}}/>
                             <Card.Body>
                                 <Card.Title>Big CEO</Card.Title>
                                 <Card.Text>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</Card.Text>
                             </Card.Body>
                         </Card>
                         <Card style={{width: '18rem'}} className='shadow'>
+                        <Card.Img variant='top' src={placeholder} style={{height: '200px', width: "200px", alignSelf: 'center'}}/>
                             <Card.Body>
                                 <Card.Title>Professor X</Card.Title>
                                 <Card.Text>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</Card.Text>
                             </Card.Body>
                         </Card>
                         <Card style={{width: '18rem'}} className='shadow'>
+                        <Card.Img variant='top' src={placeholder} style={{height: '200px', width: "200px", alignSelf: 'center'}}/>
                             <Card.Body>
                                 <Card.Title>Dr. Strange</Card.Title>
                                 <Card.Text>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</Card.Text>
                             </Card.Body>
                         </Card>
                         <Card style={{width: '18rem'}} className='shadow'>
+                        <Card.Img variant='top' src={placeholder} style={{height: '200px', width: "200px", alignSelf: 'center'}}/>
                             <Card.Body>
                                 <Card.Title>Some Guy</Card.Title>
                                 <Card.Text>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</Card.Text>
