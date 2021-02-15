@@ -1,5 +1,5 @@
 # react-ts-hackathon-boilerplate
-Launch your hackathon website easily with this react and typescript based boilerplate!
+Launch your hackathon website easily with this react and typescript based boilerplate! Fork this repo and create your hackathons new website with prebuilt sections for info, sponsors, faq, speakers, and organizing team. But why stop there, hack away at this website and customize it to your hearts content.
 ## What's needed
 * Yarn
 * Node
@@ -18,3 +18,5 @@ For deployment, refer to the [documentation](https://create-react-app.dev/docs/d
 MIT
 ## Contributors
 * Nikolaus Walton, [@nikwalton](https://github.com/nikwalton)
+## Note
+This repository will not be actively maintained, please do not submit any issues. 
