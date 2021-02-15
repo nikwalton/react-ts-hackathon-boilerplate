@@ -1,22 +1,37 @@
 import React from 'react'
-import {Container, Col, Row} from 'react-bootstrap'
+import { Container, Col, Row, Image } from 'react-bootstrap'
+import placeholder from '../images/avatar-placeholder.png'
 
 function Sponsors() {
     const ContainerStyle = {
-        background: '#ffd369'   
+        background: '#ffd369',
+        alignItems: 'center'
     }
 
     const TextStyle = {
         textAlign: 'center' as 'center'
     }
 
-    return(
+    return (
         <Container fluid style={ContainerStyle}>
             <Row>
                 <Col>
-                <h1 className="display-4" style={TextStyle}>Sponsors</h1>
+                    <h1 className="display-4" style={TextStyle}>Sponsors</h1>
                 </Col>
             </Row>
+
+            <Row className=' justify-content-md-center'>
+                <Image src={placeholder} style={{ height: "170px" }} className='m-auto p-3' roundedCircle />
+                <Image src={placeholder} style={{ height: "170px" }} className='m-auto p-3' roundedCircle />
+                <Image src={placeholder} style={{ height: "170px" }} className='m-auto p-3' roundedCircle />
+                <Image src={placeholder} style={{ height: "170px" }} className='m-auto p-3' roundedCircle />
+                <Image src={placeholder} style={{ height: "170px" }} className='m-auto p-3' roundedCircle />
+                <Image src={placeholder} style={{ height: "170px" }} className='m-auto p-3' roundedCircle />
+            </Row>
+
+
+            <br />
+            <br />
         </Container>
     );
 }

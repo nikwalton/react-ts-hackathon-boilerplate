@@ -21,7 +21,7 @@ function Presenters() {
             <Row>
                 <Col>
                     <CardDeck >
-                        <Card style={{width: '18rem'}} className='shadow'>
+                        <Card style={{width: '18rem'}} className='shadow p3 mx-4'>
                             <Card.Img variant='top' src={placeholder} style={{height: '200px', width: "200px", alignSelf: 'center'}}/>
                             <Card.Body>
                                 <Card.Title>Big CEO</Card.Title>
@@ -29,7 +29,7 @@ function Presenters() {
                                 <Button variant="primary">Big CEO</Button>
                             </Card.Body>
                         </Card>
-                        <Card style={{width: '18rem'}} className='shadow'>
+                        <Card style={{width: '18rem'}} className='shadow p-3 mx-4'>
                         <Card.Img variant='top' src={placeholder} style={{height: '200px', width: "200px", alignSelf: 'center'}}/>
                             <Card.Body>
                                 <Card.Title>Professor X</Card.Title>
@@ -37,7 +37,7 @@ function Presenters() {
                                 <Button variant="primary">Professor X</Button>
                             </Card.Body>
                         </Card>
-                        <Card style={{width: '18rem'}} className='shadow'>
+                        <Card style={{width: '18rem'}} className='shadow p-3 mx-4'>
                         <Card.Img variant='top' src={placeholder} style={{height: '200px', width: "200px", alignSelf: 'center'}}/>
                             <Card.Body>
                                 <Card.Title>Dr. Strange</Card.Title>
@@ -45,7 +45,7 @@ function Presenters() {
                                 <Button variant="primary">Dr. Strange</Button>
                             </Card.Body>
                         </Card>
-                        <Card style={{width: '18rem'}} className='shadow'>
+                        <Card style={{width: '18rem'}} className='shadow p-3 mx-4'>
                         <Card.Img variant='top' src={placeholder} style={{height: '200px', width: "200px", alignSelf: 'center'}}/>
                             <Card.Body>
                                 <Card.Title>Some Guy</Card.Title>
