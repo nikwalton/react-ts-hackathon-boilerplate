@@ -1,9 +1,10 @@
 import React from 'react'
-import {Container, Row, Col} from 'react-bootstrap'
+import {Container, Row, Col, Accordion} from 'react-bootstrap'
 
 function FAQ() {
     const ContainerStyle = {
         background: '#eeeeee'
+    
     }
 
     const TextStyle = {

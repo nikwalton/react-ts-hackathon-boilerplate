@@ -146,6 +146,8 @@ function Schedule() {
                     </Table>
                 </Col>
             </Row>
+            <br/>
+            <br/>
         </Container>
     );
 }

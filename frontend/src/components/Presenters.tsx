@@ -21,7 +21,7 @@ function Presenters() {
             <Row>
                 <Col>
                     <CardDeck >
-                        <Card style={{width: '18rem'}} className='shadow p3 mx-4'>
+                        <Card style={{width: '18rem'}} className='shadow p-3 mx-4'>
                             <Card.Img variant='top' src={placeholder} style={{height: '200px', width: "200px", alignSelf: 'center'}}/>
                             <Card.Body>
                                 <Card.Title>Big CEO</Card.Title>
